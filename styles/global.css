@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color-red: #E3646E;
+    --primary-color-purple: #BB72E9;
+    --primary-color-blue: #3996DB;
+    --primary-color-green: #82BC4f;
+    --primary-color-yellow: #EABD5F; 
+    --base-color-gray-100: #0D0E11;
+    --base-color-gray-200: #16181D;
+    --base-color-gray-300: #292C34;
+    --base-color-gray-400: #878EA1;
+    --base-color-gray-500: #C0C4CE;
+    --base-color-gray-600: #E2E4E9;    
+
+    --font-family-Maven: "Maven Pro", sans-serif;
+    --font-family-Inconsolata: "Inconsolata", monospace;
+    --font-family-Asap: "Asap", sans-serif;
+    --text-lg: 800 56px/120% var(--font-family-Asap);
+    --text-md: 800 24px/120% var(--font-family-Asap);
+    --text-sm: 800 16px/120% var(--font-family-Asap);
+    --text-subtitle: 600 20px/120% var(--font-family-Inconsolata);
+    --txt-md: 400 16px/140% var(--font-family-Maven);
+    --txt-sm: 400 14px/140% var(--font-family-Maven);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+    height: 100vh;   
+  }
+
+body {     
+    a {
+    text-decoration: none;
+    color: inherit;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h2 {
+    font: var(--text-subtitle);
+    color: var(--base-color-gray-500);
+    span {
+        color:var(--primary-color-blue);
+    }
+    margin-top: 8px;
+}
+
+h1 {
+    font: var(--text-lg);
+    color: var(--base-color-gray-600);
+}
+
+a:hover {
+    color: var(--brand-color-light);
+}

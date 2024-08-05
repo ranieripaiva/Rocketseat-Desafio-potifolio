@@ -1,0 +1,57 @@
+#featured {
+    grid-area: featured;                
+    padding: 72px 120px 144px 120px;
+    align-items: center;
+    justify-content: center;
+
+    img {        
+        width: 306px;
+        height: 156px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .card {
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+        width: 330px;
+        height: 280px;
+        padding: 12px;
+        gap: 20px;
+        background: var(--base-color-gray-300);
+        border-radius: 12px;       
+        
+        
+
+        figcaption {
+            position: absolute;            
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+
+            padding: 24px;
+
+            &:has(.text-lg) {
+                padding: 12px;
+            }
+
+            span {
+                width: 298px;
+                height: 19px;
+                font: var(--text-sm);
+                color: var(--base-color-gray-600);
+            }
+        }
+    }
+
+    .card:hover {       
+        border: 1.5px solid #878EA1;
+        border-radius: 12px;      
+    }
+    
+
+}
+
+
+
