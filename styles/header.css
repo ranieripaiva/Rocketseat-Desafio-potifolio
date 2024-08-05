@@ -4,7 +4,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;      
-  background: url('../assets/background_intro.png'); 
+  background: url('../assets/backgroundintro.png'); 
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
